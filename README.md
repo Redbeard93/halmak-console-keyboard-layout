@@ -17,6 +17,7 @@ https://www.bilibili.com/read/cv5124452?spm_id_from=333.999.0.0
 
 
 # Custom Keyboard Layouts with xkb
+## 太长不看版
 - 如果像我一样只是想使用halmak键盘布局又懒得写和改一大堆配置文件，方法是把`usr/share/x11/xkb/symbols/us`文件最上边的 basic 里边的“English （US)"布局每个键改成halmak，然后程序员可以像我一样加上对调过的ctlr和caps键，修改完成后直接把us文件放到创建的目录`$HOME/.config/xkb/symbols/`下边，重启后默认的就是修改完的halmak，不再需要修改任何配置文件。
 
 ## 为什么需要自定义键盘布局？
